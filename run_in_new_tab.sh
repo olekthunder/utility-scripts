@@ -1,9 +1,9 @@
 #!/bin/bash
+
 TERMINAL="gnome-terminal"
 
-pgrep -u "$USER" gnome-terminal
 # if last command is unsuccessful
-if [ "$?" -ne 0 ]; then
+if [ pgrep -u "$USER" "$TERMINAL" ]; then
     /usr/bin/$TERMINAL
     sleep 2
     WID=`xdotool search --class "$TERMINAL" | head -1`
