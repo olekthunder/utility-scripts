@@ -20,3 +20,10 @@ Requires **xdotool** to be installed and visible in $PATH
 
 Some useful or tricky things (maybe not) from my linux experience
 
+## rotate.sh
+
+Rotates image
+
+```bash
+$ ./rotate.sh my.img "-90"
+```
