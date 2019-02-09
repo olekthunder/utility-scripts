@@ -20,10 +20,14 @@ Requires **xdotool** to be installed and visible in $PATH
 
 Some useful or tricky things (maybe not) from my linux experience
 
-## rotate.sh
+## rotate
 
 Rotates image
 
 ```bash
-$ ./rotate.sh my.img "-90"
+$ ./rotate my.img "-90"
 ```
+
+## mp3tags2utf8
+
+Convert all tags in mp3 files in the directory from cp1251 to utf8
