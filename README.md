@@ -10,6 +10,14 @@ $ # ...
 $ js-lint-git HEAD^^
 ```
 
+## flake-lint-git
+
+Run flake8 only on changed parts of python files
+
+```bash
+$ ./flake-lint-git HEAD^^^
+```
+
 ## run-in-new-tab
 
 Run your command in new tab for your chosen terminal (set `TERMINAL=myawesometerminal` inside script)
@@ -31,3 +39,4 @@ $ ./rotate my.img "-90"
 ## mp3tags2utf8
 
 Convert all tags in mp3 files in the directory from cp1251 to utf8
+
