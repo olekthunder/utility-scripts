@@ -19,7 +19,7 @@ done
 for tool in "${tools[@]}"
 do
     echo "resetting evalsprt in options.xml for $tool"
-    sed -i '/evlsprt/d' ~/.$tool*/config/options/options.xml
+    sed -i '/evlsprt/d' ~/.$tool*/config/options/other.xml
 done
 
 echo "resetting evalsprt in prefs.xml"
