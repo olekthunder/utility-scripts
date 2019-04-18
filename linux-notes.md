@@ -73,3 +73,10 @@ AutoEnable=true
 ```
 curl http://my.json.api | python -m json.tool
 ```
+
+# To make linux and windows use same time while dualboot
+
+```
+timedatectl set-local-rtc 1 --adjust-system-clock
+```
+
