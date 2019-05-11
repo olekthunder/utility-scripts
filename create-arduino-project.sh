@@ -36,6 +36,10 @@ then
 fi
 
 mkdir $1
+if [ -x "$(command -v git)" ];
+then
+    git init $1 1>/dev/null
+fi
 echo "$MAKEFILE_CONTENT" > "$1/Makefile"
 echo "$BASE_FILE_CONTENT" > "$1/main.ino"
 
