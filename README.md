@@ -40,3 +40,7 @@ $ ./rotate my.img "-90"
 
 Convert all tags in mp3 files in the directory from cp1251 to utf8
 
+## run
+
+script to run programs in terminal and not
+
