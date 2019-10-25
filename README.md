@@ -44,3 +44,6 @@ Convert all tags in mp3 files in the directory from cp1251 to utf8
 
 script to run programs in terminal and not
 
+## arch-missing-pkg-fix
+
+fix packages with missing files in Arch linux (assumes you have yay - to fix aur packages)
