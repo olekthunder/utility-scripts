@@ -80,3 +80,16 @@ curl http://my.json.api | python -m json.tool
 timedatectl set-local-rtc 1 --adjust-system-clock
 ```
 
+# to make temporary file use
+
+```
+maketmp /tmp/filename.XXXX
+```
+
+All `X`-es will be replaced with random symbols
+
+# to find which package owns a file use
+
+```
+pkgfile <filename>
+```
